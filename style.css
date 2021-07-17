@@ -1,0 +1,25 @@
+h3{
+    font-size: 30px !important;
+}
+
+button:hover{
+    background-color: firebrick !important;
+}
+
+canvas{
+    border-width: 7px;
+    border-color: khaki;border-style: dashed;
+    margin-top: 120px;
+    animation-name: Messi;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Messi{
+    from{
+        box-shadow: 10px 10px 15px orange;
+    }
+    to{
+        box-shadow: 10px 10px 15px green;
+    }
+}
